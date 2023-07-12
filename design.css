@@ -167,7 +167,7 @@ width: 100%;
 height: auto;
   }
   .last > h2 {
-    margin-top: 122px;
+    margin-top: 200px;
     font-size: 24px;
     margin-right: 100px;
     font-weight: lighter;
@@ -179,3 +179,80 @@ height: auto;
     color: rgb(71, 71, 71);
   }
 }
+@media (max-width: 1023px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      padding-top: -75px;
+      margin-top: -75px;
+      width: 200px;
+      height: 100px;
+    margin-bottom: 275px;
+    margin-left: 175px;
+    }
+    .Sneakers {
+      background-color: #a5ad9d;
+      height: 610px; 
+      width: 100%; 
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    }
+    .Sneakers>h1{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-left: 55px;
+    }
+   .two{
+      clear: both;
+       margin-left: 100px;
+       margin-top: 158px; 
+      width: 100%;
+    height: auto;  
+    }
+     .Sneakers > .main{
+      clear: both;
+      font-size: 20px;
+   }
+   .Juarez{
+    clear: both;
+    font-size: 24px;
+    background-color: #88947c;
+    height: 430px; 
+    width: 100%; 
+  }
+  
+  .Juarez > p {
+  margin-left: 55px;
+  margin-right: 55px;
+  padding-top: 120px;
+  color: aliceblue;
+  }
+  .last > img {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    float: left;
+  width: 100%;
+  height: auto;
+    }
+    .last > h2 {
+      margin-top: 100px;
+      font-size: 24px;
+      margin-right: 100px;
+      font-weight: lighter;
+    }
+    
+    .last > p {
+      font-size: 14px;
+      margin-right: 100px;
+      color: rgb(71, 71, 71);
+    }
+  }
